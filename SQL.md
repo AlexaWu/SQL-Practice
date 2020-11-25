@@ -39,17 +39,15 @@ insert into Person (PersonId, LastName, FirstName) values ('1', 'Wang', 'Allen')
 Truncate table Address
 insert into Address (AddressId, PersonId, City, State) values ('1', '2', 'New York City', 'New York')
 ```
-## Solution
+## Approach: Using _**outer join**_ [Accepted]
 
-Approach: Using outer join [Accepted]
-
-Algorithm
+#### Algorithm
 
 Since the *PersonId* in table `Address` is the foreign key of table `Person`, we can join this two table to get the address information of a person.
 
 Considering there might not be an address information for every person, we should use _**outer join**_ instead of the default _**inner join**_.
 
-MySQL
+#### MySQL
 ```javascript
 select FirstName, LastName, City, State
 from Person left join Address
