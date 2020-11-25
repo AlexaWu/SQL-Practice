@@ -69,7 +69,7 @@ Id | Salary
 For example, given the above Employee table, the query should return `200` as the second highest salary. If there is no second highest salary, then the query should return `null`.
 
 SecondHighestSalary
-|--
+--|
 200           
 
 ---
@@ -94,8 +94,9 @@ FROM
     Employee
 ORDER BY Salary DESC
 LIMIT 1 OFFSET 1
-However, this solution will be judged as 'Wrong Answer' if there is no such second highest salary since there might be only one record in this table. To overcome this issue, we can take this as a temp table.
 ```
+However, this solution will be judged as 'Wrong Answer' if there is no such second highest salary since there might be only one record in this table. To overcome this issue, we can take this as a temp table.
+
 #### MySQL
 ```javascript
 SELECT
@@ -120,3 +121,10 @@ SELECT
         LIMIT 1 OFFSET 1),
     NULL) AS SecondHighestSalary
 ```
+
+`Employee`
+|Id|Salary
+--|--|--
+0|	1|	100
+1	|2	|200
+2	3	300
