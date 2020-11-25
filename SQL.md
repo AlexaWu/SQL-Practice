@@ -68,9 +68,55 @@ Id | Salary
 
 For example, given the above Employee table, the query should return `200` as the second highest salary. If there is no second highest salary, then the query should return `null`.
 
-| SecondHighestSalary |
-|--------------------- |
-| 200                 |
+| SecondHighestSalary
+|--|
+| 200           
 
---
+---
+
+SQL Schema
+```javascript
+Create table If Not Exists Employee (Id int, Salary int)
+Truncate table Employee
+insert into Employee (Id, Salary) values ('1', '100')
+insert into Employee (Id, Salary) values ('2', '200')
+insert into Employee (Id, Salary) values ('3', '300')
+```
+
+## Approach: Using sub-query and LIMIT clause [Accepted]
+Algorithm
+
+Sort the distinct salary in descend order and then utilize the LIMIT clause to get the second highest salary.
+```javascript
+SELECT DISTINCT
+    Salary AS SecondHighestSalary
+FROM
+    Employee
+ORDER BY Salary DESC
+LIMIT 1 OFFSET 1
+However, this solution will be judged as 'Wrong Answer' if there is no such second highest salary since there might be only one record in this table. To overcome this issue, we can take this as a temp table.
+```
+MySQL
+```javascript
+SELECT
+    (SELECT DISTINCT
+            Salary
+        FROM
+            Employee
+        ORDER BY Salary DESC
+        LIMIT 1 OFFSET 1) AS SecondHighestSalary
+;
+```
+## Approach: Using IFNULL and LIMIT clause [Accepted]
+Another way to solve the 'NULL' problem is to use IFNULL funtion as below.
+
+MySQL
+
+SELECT
+    IFNULL(
+      (SELECT DISTINCT Salary
+       FROM Employee
+       ORDER BY Salary DESC
+        LIMIT 1 OFFSET 1),
+    NULL) AS SecondHighestSalary
 
