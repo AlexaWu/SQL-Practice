@@ -54,5 +54,5 @@ on Person.PersonId = Address.PersonId
 ```
 > Note: Using _**where**_ clause to filter the records will fail if there is no address information for a person because it will not display the name information.
 
-![]()
+![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/join.jpg)
 
