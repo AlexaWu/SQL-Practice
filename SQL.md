@@ -1,7 +1,5 @@
 # 175. Combine Two Tables [easy]
 
-## Description
-
 Table: `Person`
 
 Column Name | Type
@@ -54,6 +52,7 @@ from Person left join Address
 on Person.PersonId = Address.PersonId
 ;
 ```
-
-
 > Note: Using _**where**_ clause to filter the records will fail if there is no address information for a person because it will not display the name information.
+
+![]()
+
