@@ -2,33 +2,31 @@
 
 ## Description
 
-Table: Person
+Table: `Person`
 
-+-------------+---------+\
-| Column Name | Type    |\
-+-------------+---------+\
-| PersonId    | int     |\
-| FirstName   | varchar |\
-| LastName    | varchar |\
-+-------------+---------+\
-PersonId is the primary key column for this table.
+Column Name | Type
+-- | --
+PersonId    | int
+FirstName   | varchar
+LastName    | varchar
 
-Table: Address
+*PersonId* is the primary key column for this table.
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| AddressId   | int     |
-| PersonId    | int     |
-| City        | varchar |
-| State       | varchar |
-+-------------+---------+
-AddressId is the primary key column for this table.
+Table: `Address`
+
+Column Name | Type
+-- | --
+AddressId   | int
+PersonId    | int
+City        | varchar
+State       | varchar
+
+*AddressId* is the primary key column for this table.
  
 
 Write a SQL query for a report that provides the following information for each person in the Person table, regardless if there is an address for each of those people:
 
-FirstName, LastName, City, State
+> FirstName, LastName, City, State
 
 ---
 
@@ -47,9 +45,9 @@ Approach: Using outer join [Accepted]
 
 Algorithm
 
-Since the PersonId in table Address is the foreign key of table Person, we can join this two table to get the address information of a person.
+Since the *PersonId* in table `Address` is the foreign key of table `Person`, we can join this two table to get the address information of a person.
 
-Considering there might not be an address information for every person, we should use outer join instead of the default inner join.
+Considering there might not be an address information for every person, we should use _**outer join**_ instead of the default _**inner join**_.
 
 MySQL
 ```javascript
@@ -60,4 +58,4 @@ on Person.PersonId = Address.PersonId
 ```
 
 
-Note: Using where clause to filter the records will fail if there is no address information for a person because it will not display the name information.
+> Note: Using _**where**_ clause to filter the records will fail if there is no address information for a person because it will not display the name information.
