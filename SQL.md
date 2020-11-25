@@ -54,6 +54,9 @@ on Person.PersonId = Address.PersonId
 ```
 > Note: Using _**where**_ clause to filter the records will fail if there is no address information for a person because it will not display the name information.
 
+#### Output
+> {"headers": ["FirstName", "LastName", "City", "State"], "values": [["Allen", "Wang", null, null]]}
+
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/join.jpg)
 
 # 176. Second Highest Salary [easy]
@@ -121,6 +124,8 @@ SELECT
         LIMIT 1 OFFSET 1),
     NULL) AS SecondHighestSalary
 ```
+#### Output
+> {"headers": ["SecondHighestSalary"], "values": [[200]]}
 
 # 177. Nth Highest Salary [medium]
 
@@ -144,10 +149,39 @@ CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
       # Write your MySQL query statement below.
-      SELECT DISTINCT Salary
-      FROM Employee
-      ORDER BY Salary DESC
-      LIMIT M, 1
+      select distinct e1.salary
+      from employee e1
+      where N-1 = (select count(distinct e2.salary)
+                                    from employee e2
+                                    where e1.salary < e2.salary)
   );
 END
 ```
+#### Output
+> {"headers": ["getNthHighestSalary(2)"], "values": [[200]]}
+
+# 178. Rank Scores [medium]
+
+Write a SQL query to rank scores. If there is a tie between two scores, both should have the same ranking. Note that after a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no "holes" between ranks.
+
+Id | Score
+-- | --
+1  | 3.50  
+2  | 3.65  
+3  | 4.00  
+4  | 3.85  
+5  | 4.00  
+6  | 3.65  
+
+For example, given the above Scores table, your query should generate the following report (order by highest score):
+
+score | Rank    
+-- | --
+ 4.00  | 1       
+ 4.00  | 1       
+ 3.85  | 2       
+ 3.65  | 3       
+ 3.65  | 3       
+ 3.50  | 4       
+
+Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
