@@ -37,7 +37,7 @@ insert into Person (PersonId, LastName, FirstName) values ('1', 'Wang', 'Allen')
 Truncate table Address
 insert into Address (AddressId, PersonId, City, State) values ('1', '2', 'New York City', 'New York')
 ```
-## Approach: Using _**outer join**_ [Accepted]
+### Approach: Using _**outer join**_ [Accepted]
 
 #### Algorithm
 
@@ -184,7 +184,11 @@ score | Rank
  3.65  | 3       
  3.50  | 4       
 
-Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
+> Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
+
+### Approach:
+
+
 
 ---
 ---
