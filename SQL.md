@@ -147,13 +147,13 @@ getNthHighestSalary(2)
 ```javascript
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
+  DECLARE M INT;
+  SET M=N-1;
   RETURN (
-      # Write your MySQL query statement below.
-      select distinct e1.salary
-      from employee e1
-      where N-1 = (select count(distinct e2.salary)
-                                    from employee e2
-                                    where e1.salary < e2.salary)
+      SELECT DISTINCT Salary
+        FROM Employee
+        ORDER BY Salary DESC
+        LIMIT M, 1
   );
 END
 ```
