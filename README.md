@@ -4,7 +4,7 @@
 
 *primary key*
 
-_**SQL Function**_
+**SQL Function**
 
 # SQL
 
