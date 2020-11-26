@@ -16,4 +16,4 @@
 
 [178. Rank Scores [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#178-rank-scores-medium)
 
-[# 180. Consecutive Numbers [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#180-consecutive-numbers-medium)
+[180. Consecutive Numbers [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#180-consecutive-numbers-medium)
