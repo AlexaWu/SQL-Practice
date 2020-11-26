@@ -15,3 +15,5 @@ _**SQL Function**_
 [177. Nth Highest Salary [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#177-nth-highest-salary-medium)
 
 [178. Rank Scores [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#178-rank-scores-medium)
+
+[# 180. Consecutive Numbers [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#180-consecutive-numbers-medium)
