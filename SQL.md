@@ -37,7 +37,7 @@ insert into Person (PersonId, LastName, FirstName) values ('1', 'Wang', 'Allen')
 Truncate table Address
 insert into Address (AddressId, PersonId, City, State) values ('1', '2', 'New York City', 'New York')
 ```
-### Approach: Using _**outer join**_ [Accepted]
+## Approach: Using _**outer join**_ [Accepted]
 
 #### Algorithm
 
@@ -186,8 +186,92 @@ score | Rank
 
 > Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
 
-### Approach:
+## Approach:
+```javascript
+SELECT S.score, COUNT(S2.score) AS `Rank` 
+FROM Scores S, (SELECT DISTINCT score FROM Scores) S2
+WHERE S.score<=S2.score
+GROUP BY S.Id
+ORDER BY S.score DESC;
+```
+#### Output
+>{"headers": ["Score", "Rank"], "values": [[4.00, 1], [4.00, 1], [3.85, 2], [3.65, 3], [3.65, 3], [3.50, 4]]}
 
+# 180. Consecutive Numbers [medium]
+
+Write a SQL query to find all numbers that appear at least three times consecutively.
+
+Id | Num 
+-- | --
+ 1  |  1  
+ 2  |  1  
+ 3  |  1  
+ 4  |  2  
+ 5  |  1  
+ 6  |  2  
+ 7  |  2  
+
+For example, given the above `Logs` table, 1 is the only number that appears consecutively for at least three times.
+
+ConsecutiveNums 
+-- |
+ 1               
+
+---
+
+SQL Schema
+```javascript
+Create table If Not Exists Logs (Id int, Num int)
+Truncate table Logs
+insert into Logs (Id, Num) values ('1', '1')
+insert into Logs (Id, Num) values ('2', '1')
+insert into Logs (Id, Num) values ('3', '1')
+insert into Logs (Id, Num) values ('4', '2')
+insert into Logs (Id, Num) values ('5', '1')
+insert into Logs (Id, Num) values ('6', '2')
+insert into Logs (Id, Num) values ('7', '2')
+```
+## Approach: Using _**DISTINCT**_ and _**WHERE**_ clause [Accepted]
+#### Algorithm
+
+Consecutive appearing means the Id of the Num are next to each others. Since this problem asks for numbers appearing at least three times consecutively, we can use 3 aliases for this table `Logs`, and then check whether 3 consecutive numbers are all the same.
+```javascript
+SELECT *
+FROM
+    Logs l1,
+    Logs l2,
+    Logs l3
+WHERE
+    l1.Id = l2.Id - 1
+    AND l2.Id = l3.Id - 1
+    AND l1.Num = l2.Num
+    AND l2.Num = l3.Num
+;
+```
+Id|Num	|Id	|Num	|Id	|Num
+-- | -- | -- | -- | -- | --
+1	|1|	2	|1	|3|	1
+>Note: The first two columns are from l1, then the next two are from l2, and the last two are from l3.
+
+Then we can select any Num column from the above table to get the target data. However, we need to add a keyword **DISTINCT** because it will display a duplicated number if one number appears more than 3 times consecutively.
+
+#### MySQL
+```javascript
+SELECT DISTINCT
+    l1.Num AS ConsecutiveNums
+FROM
+    Logs l1,
+    Logs l2,
+    Logs l3
+WHERE
+    l1.Id = l2.Id - 1
+    AND l2.Id = l3.Id - 1
+    AND l1.Num = l2.Num
+    AND l2.Num = l3.Num
+;
+```
+#### Output
+> {"headers": ["ConsecutiveNums"], "values": [[1]]}
 
 
 ---
