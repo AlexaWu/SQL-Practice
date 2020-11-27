@@ -123,7 +123,9 @@ SELECT
 ```
 #### Output
 > {"headers": ["SecondHighestSalary"], "values": [[200]]}
+
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/limit%20offset.png)
+
 # 177. Nth Highest Salary [medium]
 
 Write a SQL query to get the nth highest salary from the `Employee` table.
