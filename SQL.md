@@ -370,8 +370,11 @@ WHERE
 ;
 ```
 Id	|Name	|Salary	|ManagerId	|Id	|Name	|Salary	ManagerId
-1	|Joe	|70000	|3	|3	|Sam	|60000	
+--|--|--|--|--|--|--
+1	|Joe	|70000	|3	|3	|Sam	|60000
+
 As we only need to output the employee's name, so we modify the above code a little to get a solution.
+
 #### MySQL
 ```javascript
 SELECT
