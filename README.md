@@ -1,8 +1,8 @@
-# Leetcode
+
 
 `Table Name`            *primary key*         **SQL Function**
 
-# SQL Contents
+# Leetcode SQL Problems
 
 #|Title|Difficulty
 --|--|--
