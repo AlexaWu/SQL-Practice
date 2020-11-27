@@ -17,3 +17,7 @@
 [178. Rank Scores [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#178-rank-scores-medium)
 
 [180. Consecutive Numbers [medium]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#180-consecutive-numbers-medium)
+
+[181. Employees Earning More Than Their Managers [easy]](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#181-employees-earning-more-than-their-managers-easy)
+
+[182. Duplicate Emails [easy]]
