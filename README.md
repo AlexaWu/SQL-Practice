@@ -4,7 +4,7 @@
 
 # SQL Contents
 
-`# | Title | Difficulty
+#|Title|Difficulty
 --|--|--
 175|[Combine Two Tables](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#175-combine-two-tables-easy)|easy
 176|[Second Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/SQL.md#176-second-highest-salary-easy)|easy
