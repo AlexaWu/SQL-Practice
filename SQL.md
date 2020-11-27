@@ -26,8 +26,6 @@ Write a SQL query for a report that provides the following information for each 
 
 > FirstName, LastName, City, State
 
----
-
 #### SQL Schema
 ```javascript
 Create table Person (PersonId int, FirstName varchar(255), LastName varchar(255))
@@ -37,6 +35,7 @@ insert into Person (PersonId, LastName, FirstName) values ('1', 'Wang', 'Allen')
 Truncate table Address
 insert into Address (AddressId, PersonId, City, State) values ('1', '2', 'New York City', 'New York')
 ```
+---
 ## Approach: Using _**outer join**_ [Accepted]
 
 #### Algorithm
@@ -75,8 +74,6 @@ SecondHighestSalary
 --|
 200           
 
----
-
 #### SQL Schema
 ```javascript
 Create table If Not Exists Employee (Id int, Salary int)
@@ -85,7 +82,7 @@ insert into Employee (Id, Salary) values ('1', '100')
 insert into Employee (Id, Salary) values ('2', '200')
 insert into Employee (Id, Salary) values ('3', '300')
 ```
-
+---
 ## Approach: Using sub-query and _**LIMIT**_ clause [Accepted]
 #### Algorithm
 
@@ -186,6 +183,18 @@ score | Rank
 
 > Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
 
+#### SQL Schema
+```javascript
+Create table If Not Exists Scores (Id int, Score DECIMAL(3,2))
+Truncate table Scores
+insert into Scores (Id, Score) values ('1', '3.5')
+insert into Scores (Id, Score) values ('2', '3.65')
+insert into Scores (Id, Score) values ('3', '4.0')
+insert into Scores (Id, Score) values ('4', '3.85')
+insert into Scores (Id, Score) values ('5', '4.0')
+insert into Scores (Id, Score) values ('6', '3.65')
+```
+---
 ## Approach:
 ```javascript
 SELECT S.score, COUNT(S2.score) AS `Rank` 
@@ -217,8 +226,6 @@ ConsecutiveNums
 -- |
  1               
 
----
-
 #### SQL Schema
 ```javascript
 Create table If Not Exists Logs (Id int, Num int)
@@ -231,6 +238,7 @@ insert into Logs (Id, Num) values ('5', '1')
 insert into Logs (Id, Num) values ('6', '2')
 insert into Logs (Id, Num) values ('7', '2')
 ```
+---
 ## Approach: Using _**DISTINCT**_ and _**WHERE**_ clause [Accepted]
 #### Algorithm
 
@@ -337,9 +345,7 @@ left_operand | operator | right_operand | value
 
 As shown, you need find the value of each boolean exprssion in the table using the variables table.
 
----
-
-SQL Schema
+#### SQL Schema
 ```javascript
 Create Table If Not Exists Variables (name varchar(3), value int)
 Create Table If Not Exists Expressions (left_operand varchar(3), operator ENUM('>', '<', '='), right_operand varchar(3))
@@ -354,3 +360,4 @@ insert into Expressions (left_operand, operator, right_operand) values ('y', '>'
 insert into Expressions (left_operand, operator, right_operand) values ('y', '<', 'x')
 insert into Expressions (left_operand, operator, right_operand) values ('x', '=', 'x')
 ```
+---
