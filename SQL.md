@@ -83,7 +83,7 @@ insert into Employee (Id, Salary) values ('2', '200')
 insert into Employee (Id, Salary) values ('3', '300')
 ```
 ---
-## Approach: Using sub-query and _**LIMIT**_ clause [Accepted]
+## Approach I: Using sub-query and _**LIMIT**_ clause [Accepted]
 #### Algorithm
 
 Sort the distinct salary in descend order and then utilize the LIMIT clause to get the second highest salary.
@@ -108,7 +108,7 @@ SELECT
         LIMIT 1 OFFSET 1) AS SecondHighestSalary
 ;
 ```
-## Approach: Using _**IFNULL**_ and _**LIMIT**_ clause [Accepted]
+## Approach II: Using _**IFNULL**_ and _**LIMIT**_ clause [Accepted]
 Another way to solve the 'NULL' problem is to use IFNULL funtion as below.
 
 #### MySQL
@@ -367,7 +367,7 @@ WHERE
         AND a.Salary > b.Salary
 ;
 ```
-## Approach I: Using JOIN clause [Accepted]
+## Approach II: Using JOIN clause [Accepted]
 #### Algorithm
 
 Actually, **JOIN** is a more common and efficient way to link tables together, and we can use **ON** to specify some conditions.
