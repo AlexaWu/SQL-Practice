@@ -5,6 +5,16 @@
 *primary key*
 
 **SQL Function**
+```javascript
+select        2
+from      ]
+where     ]   1
+group by  ]
+having    ]
+order by      3
+```
+![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet.PNG)
+
 
 # SQL
 
