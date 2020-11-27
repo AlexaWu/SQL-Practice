@@ -15,16 +15,6 @@
 
 
 
-
-```javascript
-select        2
-from      ]
-where     ]   1
-group by  ]
-having    ]
-order by      3
-```
-
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet.PNG)
 
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet%201.png)
