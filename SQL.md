@@ -173,7 +173,7 @@ Id | Score
 5  | 4.00  
 6  | 3.65  
 
-For example, given the above Scores table, your query should generate the following report (order by highest score):
+For example, given the above `Scores` table, your query should generate the following report (order by highest score):
 
 score | Rank    
 -- | --
