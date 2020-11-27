@@ -15,6 +15,11 @@
 
 
 
+
+
+
+
+
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet.PNG)
 
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet%201.png)
