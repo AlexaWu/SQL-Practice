@@ -28,7 +28,7 @@ Write a SQL query for a report that provides the following information for each 
 
 ---
 
-SQL Schema
+#### SQL Schema
 ```javascript
 Create table Person (PersonId int, FirstName varchar(255), LastName varchar(255))
 Create table Address (AddressId int, PersonId int, City varchar(255), State varchar(255))
@@ -77,7 +77,7 @@ SecondHighestSalary
 
 ---
 
-SQL Schema
+#### SQL Schema
 ```javascript
 Create table If Not Exists Employee (Id int, Salary int)
 Truncate table Employee
@@ -219,7 +219,7 @@ ConsecutiveNums
 
 ---
 
-SQL Schema
+#### SQL Schema
 ```javascript
 Create table If Not Exists Logs (Id int, Num int)
 Truncate table Logs
