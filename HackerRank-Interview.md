@@ -45,7 +45,7 @@ having (
   sum(views_sums.sum_views) +
   sum(views_sums.sum_unique_views)
 ) > 0
-order by contests.contest_id
+order by contests.contest_id;
 ```
 
 ## incorrect
