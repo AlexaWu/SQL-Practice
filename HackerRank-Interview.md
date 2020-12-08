@@ -1,5 +1,7 @@
 # [Question](https://www.hackerrank.com/challenges/interviews/problem)
 
+# correct
+```javascript
 select 
   contests.contest_id, 
   contests.hacker_id, 
@@ -44,3 +46,4 @@ having (
   sum(views_sums.sum_unique_views)
 ) > 0
 order by contests.contest_id
+```
