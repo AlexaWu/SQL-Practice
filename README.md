@@ -22,16 +22,26 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 197|[Rising Temperature ]() |easy |Join, Simple Subquery, Window Function
 262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/SQL/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
 511|[Game Play Analysis I ](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
+512|[]() | |
+534|[]() | |
+550|[]() | |
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
+571|[]() | |
 574|[Winning Candidate]() |medium |Join, Simple Subquery
-	
-
- 	
- 
-
-
-
+577|[]() | |
+578|[]() | |
+579|[]() | |
+580|[]() | |
+584|[]() | |	
+585|[]() | | 
+586|[]() | |
+595|[]() | |
+596|[]() | |
+597|[]() | |
+601|[]() | |
+602|[]() | |
+603|[]() | |
 
 
 
