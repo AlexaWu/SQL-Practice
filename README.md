@@ -13,8 +13,9 @@
 180|[Consecutive Numbers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/180.%20Consecutive%20Numbers%20%5Bmedium%5D.md)|medium|Advanced Join, Window Function
 181|[Employees Earning More Than Their Managers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/181.%20Employees%20Earning%20More%20Than%20Their%20Managers%20%5Beasy%5D.md)|easy|Simple Join
 182|[Duplicate Emails](https://github.com/AlexaWu/Leetcode/blob/main/SQL/182.%20Duplicate%20Emails.md)|easy|Basics
-183|[Customers Who Never Order]() |easy |Simple Join, Simple Subquery
-184|[Department Highest Salary]() |medium |Simple Join, Simple Subquery, Window Function
+183|[Customers Who Never Order](https://github.com/AlexaWu/Leetcode/blob/main/SQL/183.%09Customers%20Who%20Never%20Order.md) |easy |Simple Join, Simple Subquery
+184|[Department Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/SQL/184.%09Department%20Highest%20Salary.md) |medium |Simple Join, Simple Subquery, Window Function
+185|[Department Top Three Salaries](https://github.com/AlexaWu/Leetcode/blob/main/SQL/185.%09Department%20Top%20Three%20Salaries.md) |hard |Window Function
 196|[Delete Duplicate Emails]() |easy |SQL Command, Advanced Join, Simple Subquery
 197|[Rising Temperature ]() |easy |Join, Simple Subquery, Window Function
 511|[Game Play Analysis I ]() |easy |Basics
