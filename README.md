@@ -15,12 +15,12 @@
 182|[Duplicate Emails](https://github.com/AlexaWu/Leetcode/blob/main/SQL/182.%20Duplicate%20Emails.md)|easy|Basics
 183|[Customers Who Never Order]() |easy |Simple Join, Simple Subquery
 184|[Department Highest Salary]() |medium |Simple Join, Simple Subquery, Window Function
-196|[Delete Duplicate Emails]() |easy |
-197|[Rising Temperature ]() |easy |
-511|[Game Play Analysis I ]() |easy |
-569|[]() |hard |
-570|[]() |medium |
-574|[]() |medium |
+196|[Delete Duplicate Emails]() |easy |SQL Command, Advanced Join, Simple Subquery
+197|[Rising Temperature ]() |easy |Join, Simple Subquery, Window Function
+511|[Game Play Analysis I ]() |easy |Basics
+569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
+570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
+574|[Winning Candidate]() |medium |Join, Simple Subquery
 	
 
  	
