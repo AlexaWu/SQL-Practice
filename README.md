@@ -13,8 +13,19 @@
 180|[Consecutive Numbers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/180.%20Consecutive%20Numbers%20%5Bmedium%5D.md)|medium|Advanced Join, Window Function
 181|[Employees Earning More Than Their Managers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/181.%20Employees%20Earning%20More%20Than%20Their%20Managers%20%5Beasy%5D.md)|easy|Simple Join
 182|[Duplicate Emails](https://github.com/AlexaWu/Leetcode/blob/main/SQL/182.%20Duplicate%20Emails.md)|easy|Basics
-183|[]() | |Simple Join, Simple Subquery
-184|[]() | |Simple Join, Simple Subquery, Window Function
+183|[Customers Who Never Order]() |easy |Simple Join, Simple Subquery
+184|[Department Highest Salary]() |medium |Simple Join, Simple Subquery, Window Function
+196|[Delete Duplicate Emails]() |easy |
+197|[Rising Temperature ]() |easy |
+511|[Game Play Analysis I ]() |easy |
+569|[]() |hard |
+570|[]() |medium |
+574|[]() |medium |
+	
+
+ 	
+ 
+
 
 
 
