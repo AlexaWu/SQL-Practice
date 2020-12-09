@@ -18,6 +18,7 @@
 185|[Department Top Three Salaries](https://github.com/AlexaWu/Leetcode/blob/main/SQL/185.%09Department%20Top%20Three%20Salaries.md) |hard |Window Function
 196|[Delete Duplicate Emails]() |easy |SQL Command, Advanced Join, Simple Subquery
 197|[Rising Temperature ]() |easy |Join, Simple Subquery, Window Function
+262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/SQL/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
 511|[Game Play Analysis I ]() |easy |Basics
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
