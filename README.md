@@ -23,25 +23,25 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/SQL/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
 511|[Game Play Analysis I](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
 512|[Game Play Analysis II](https://github.com/AlexaWu/Leetcode/blob/main/SQL/512.%20Game%20Play%20Analysis%20II.md) |easy |Simple Join, Simple Subquery, Window Function
-534|[]() | |
-550|[]() | |
+534|[Game Play Analysis III](https://github.com/AlexaWu/Leetcode/blob/main/SQL/534.%20Game%20Play%20Analysis%20III.md) |medium |Advanced Join, Window Function
+550|[]() |medium |
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
-571|[]() | |
+571|[]() |hard|
 574|[Winning Candidate]() |medium |Join, Simple Subquery
-577|[]() | |
-578|[]() | |
-579|[]() | |
-580|[]() | |
-584|[]() | |	
-585|[]() | | 
-586|[]() | |
-595|[]() | |
-596|[]() | |
-597|[]() | |
-601|[]() | |
-602|[]() | |
-603|[]() | |
+577|[]() |easy |
+578|[]() |medium |
+579|[]() |hard |
+580|[]() |medium |
+584|[]() |easy |	
+585|[]() |medium | 
+586|[]() |easy |
+595|[]() |easy |
+596|[]() |easy |
+597|[]() |easy |
+601|[]() |hard |
+602|[]() |medium |
+603|[]() |easy |
 
 
 
