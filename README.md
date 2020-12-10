@@ -24,7 +24,7 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 511|[Game Play Analysis I](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
 512|[Game Play Analysis II](https://github.com/AlexaWu/Leetcode/blob/main/SQL/512.%20Game%20Play%20Analysis%20II.md) |easy |Simple Join, Simple Subquery, Window Function
 534|[Game Play Analysis III](https://github.com/AlexaWu/Leetcode/blob/main/SQL/534.%20Game%20Play%20Analysis%20III.md) |medium |Advanced Join, Window Function
-550|[]() |medium |
+550|[Game Play Analysis IV](https://github.com/AlexaWu/Leetcode/blob/main/SQL/550.%20Game%20Play%20Analysis%20IV.md) |medium |Simple Join, Advanced Subquery, Window Function
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
 571|[]() |hard|
