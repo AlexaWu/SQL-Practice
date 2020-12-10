@@ -19,10 +19,10 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 184|[Department Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/SQL/184.%09Department%20Highest%20Salary.md) |medium |Simple Join, Simple Subquery, Window Function
 185|[Department Top Three Salaries](https://github.com/AlexaWu/Leetcode/blob/main/SQL/185.%09Department%20Top%20Three%20Salaries.md) |hard |Window Function
 196|[Delete Duplicate Emails]() |easy |SQL Command, Advanced Join, Simple Subquery
-197|[Rising Temperature ]() |easy |Join, Simple Subquery, Window Function
+197|[Rising Temperature]() |easy |Join, Simple Subquery, Window Function
 262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/SQL/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
-511|[Game Play Analysis I ](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
-512|[]() | |
+511|[Game Play Analysis I](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
+512|[Game Play Analysis II](https://github.com/AlexaWu/Leetcode/blob/main/SQL/512.%20Game%20Play%20Analysis%20II.md) |easy |Simple Join, Simple Subquery, Window Function
 534|[]() | |
 550|[]() | |
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
