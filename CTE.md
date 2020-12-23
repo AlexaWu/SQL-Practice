@@ -1,6 +1,6 @@
 # Question 1
 
-给了一张表trip_info, 表中的列有
+给了一张表trip_info, 表中的列有\
 rider_id (unique per rider), \
 trip_id (unique per trip), \
 trip_timestamp_utc (the UTC timestamp for when the trip began), \
