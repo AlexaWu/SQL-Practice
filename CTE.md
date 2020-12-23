@@ -1,10 +1,10 @@
 # Question 1
 
 给了一张表trip_info, 表中的列有
-rider_id (unique per rider), 
-trip_id (unique per trip), 
-trip_timestamp_utc (the UTC timestamp for when the trip began), 
-and trip_status（can either be ‘completed’ or ‘not completed’）.
+rider_id (unique per rider), \
+trip_id (unique per trip), \
+trip_timestamp_utc (the UTC timestamp for when the trip began), \
+and trip_status (can either be ‘completed’ or ‘not completed’).
 
 table name | column name
 --|--
@@ -14,7 +14,7 @@ uber_trip | rider_id , trip_id, begintrip_timestamp_utc, trip_status
 
 最后问 Write a test query to validate the data in the resulting table. Indicate what you would expect the query to return if the data were valid
 
-#### Approach
+## Approach
 There are two+ ways to write a query, which depends on the type of database:
 
 **1) PostgreSQL, Oracle, etc (which support Common table expression):**
