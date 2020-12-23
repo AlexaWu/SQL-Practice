@@ -1,4 +1,4 @@
-# Question 1
+# Question
 
 给了一张表trip_info, 表中的列有\
 rider_id (unique per rider), \
