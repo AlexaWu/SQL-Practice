@@ -1,8 +1,13 @@
 # Question 1
 
-给了一张表trip_info, 表中的列有rider_id (unique per rider), trip_id (unique per trip), trip_timestamp_utc (the UTC timestamp for when the trip began), and trip_status（can either be ‘completed’ or ‘not completed’）.
+给了一张表trip_info, 表中的列有
+rider_id (unique per rider), 
+trip_id (unique per trip), 
+trip_timestamp_utc (the UTC timestamp for when the trip began), 
+and trip_status（can either be ‘completed’ or ‘not completed’）.
 
 table name | column name
+--|--
 uber_trip | rider_id , trip_id, begintrip_timestamp_utc, trip_status
 
 写个query返回每个rider完成的第三个trip的trip_id。如果rider完成的trip不到3个，则排除。
