@@ -4,7 +4,7 @@
 
 Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subquery, Recursive CTE, Window Function, CASE WHEN (or IIF), OFFSET FETCH, PIVOT & UNPIVOT, Variable
 
-# Leetcode SQL Problems
+# [Leetcode SQL Problems](https://leetcode.com/problemset/all/)
 
 #|Title|Difficulty|Topics
 --|--|--|--
@@ -27,21 +27,38 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 550|[Game Play Analysis IV](https://github.com/AlexaWu/Leetcode/blob/main/SQL/550.%20Game%20Play%20Analysis%20IV.md) |medium |Simple Join, Advanced Subquery, Window Function
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Join, Simple Subquery
-571|[]() |hard|
+571|[Find Median Given Frequency of Numbers]() |hard|
 574|[Winning Candidate]() |medium |Join, Simple Subquery
-577|[]() |easy |
-578|[]() |medium |
-579|[]() |hard |
-580|[]() |medium |
-584|[]() |easy |	
-585|[]() |medium | 
-586|[]() |easy |
-595|[]() |easy |
-596|[]() |easy |
-597|[]() |easy |
+577|[Employee Bonus]() |easy |
+578|[Get Highest Answer Rate Question]() |medium |
+579|[Find Cumulative Salary of an Employee]() |hard |
+580|[Count Student Number in Departments]() |medium |
+584|[Find Customer Referee]() |easy |	
+585|[Investments in 2016]() |medium | 
+586|[Customer Placing the Largest Number of Orders]() |easy |
+595|[Big Countries]() |easy |
+596|[Classes More Than 5 Students]() |easy |
+597|[Friend Requests I: Overall Acceptance Rate]() |easy |
 601|[]() |hard |
 602|[]() |medium |
 603|[]() |easy |
+607|[]() |easy |
+608|[]() |medium |
+610|[]() |easy |
+612|[]() |medium |
+613|[]() |easy |
+614|[]() |medium |
+615|[]() |hard |
+618|[]() |hard |
+619|[]() |easy |
+620|[]() |easy |
+626|[]() |medium |
+627|[]() |easy |
+1045|[]() |medium |
+1050|[]() |easy |
+1068|[]() |easy |
+1069|[]() |easy |
+
 
 
 
