@@ -1,6 +1,7 @@
 # [Introducing_CTE](https://www.linkedin.com/learning/querying-microsoft-sql-server-2012/introducing-common-table-expressions)
 
 ```javascript
+-- database
 USE AdventureWorks2012;
 GO
 
@@ -16,7 +17,7 @@ AS
     WHERE SalesPersonID IS NOT NULL
 )
 
--- Note that inner query can execute by itself, CTE only exists in the scope of the entire query operation
+-- Note that inner query can execute by itself
 
 SELECT SalesPersonID, COUNT(SalesOrderID) AS TotalSales, 
 	SalesYear
