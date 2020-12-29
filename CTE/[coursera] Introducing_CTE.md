@@ -8,7 +8,7 @@ GO
 WITH Sales_CTE (SalesPersonID, SalesOrderID, SalesYear)
 AS
 
--- This is the query that generates the structure of the CTE and returns the data values that will be contained in the CTE.
+-- This is the inner query(generates the structure of the CTE and returns the data values that will be contained in the CTE)
 (
     SELECT SalesPersonID, SalesOrderID, 
 	YEAR(OrderDate) AS SalesYear
@@ -16,8 +16,7 @@ AS
     WHERE SalesPersonID IS NOT NULL
 )
 
--- Now that the inner query has been created, we can define the CTE outer query that will use the result set from the previous query.
--- Note that the previous query can execute by itself, but this query will generate an error if you execute it alone, demonstrating that the CTE only exists in the scope of the entire query operation
+-- Note that inner query can execute by itself, CTE only exists in the scope of the entire query operation
 
 SELECT SalesPersonID, COUNT(SalesOrderID) 
 	AS TotalSales, SalesYear
