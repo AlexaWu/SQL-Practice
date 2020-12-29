@@ -11,7 +11,7 @@ AS
 -- This is the query that generates the structure of the CTE and returns the data values that will be contained in the CTE.
 (
     SELECT SalesPersonID, SalesOrderID, 
-		YEAR(OrderDate) AS SalesYear
+	YEAR(OrderDate) AS SalesYear
     FROM Sales.SalesOrderHeader
     WHERE SalesPersonID IS NOT NULL
 )
