@@ -18,8 +18,8 @@ AS
 
 -- Note that inner query can execute by itself, CTE only exists in the scope of the entire query operation
 
-SELECT SalesPersonID, COUNT(SalesOrderID) 
-	AS TotalSales, SalesYear
+SELECT SalesPersonID, COUNT(SalesOrderID) AS TotalSales, 
+	SalesYear
 FROM Sales_CTE
 GROUP BY SalesYear, SalesPersonID
 ORDER BY SalesPersonID, SalesYear;
