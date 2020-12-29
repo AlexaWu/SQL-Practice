@@ -1,7 +1,7 @@
 # [Introducing_CTE](https://www.linkedin.com/learning/querying-microsoft-sql-server-2012/introducing-common-table-expressions)
 
 ```javascript
--- database
+-- Using database
 USE AdventureWorks2012;
 GO
 
