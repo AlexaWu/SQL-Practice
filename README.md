@@ -10,7 +10,7 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 --|--|--|--
 175|[Combine Two Tables](https://github.com/AlexaWu/Leetcode/blob/main/SQL/175.%20Combine%20Two%20Tables%20%5Beasy%5D.md)|easy|Simple Join
 176|[Second Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/SQL/176.%20Second%20Highest%20Salary%20%5Beasy%5D.md)|easy|Simple Subquery, Window Function, OFFSET FETCH
-177|[Nth Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/SQL/177.%20Nth%20Highest%20Salary%20%5Bmedium%5D.md)|medium|Window Function, OFFSET FETCH
+177|[Nth Highest Salary](https://github.com/AlexaWu/SQL-Practice/blob/main/LeetCode/177.%20Nth%20Highest%20Salary%20%5Bmedium%5D.md)|medium|Window Function, OFFSET FETCH
 178|[Rank Scores](https://github.com/AlexaWu/Leetcode/blob/main/SQL/178.%20Rank%20Scores%20%5Bmedium%5D.md)|medium|Window Function
 180|[Consecutive Numbers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/180.%20Consecutive%20Numbers%20%5Bmedium%5D.md)|medium|Advanced Join, Window Function
 181|[Employees Earning More Than Their Managers](https://github.com/AlexaWu/Leetcode/blob/main/SQL/181.%20Employees%20Earning%20More%20Than%20Their%20Managers%20%5Beasy%5D.md)|easy|Simple Join
