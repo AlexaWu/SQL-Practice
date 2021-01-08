@@ -18,13 +18,13 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 183|[Customers Who Never Order](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/183.%09Customers%20Who%20Never%20Order.md) |easy |Simple Join, Simple Subquery
 184|[Department Highest Salary](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/184.%09Department%20Highest%20Salary.md) |medium |Simple Join, Simple Subquery, Window Function
 185|[Department Top Three Salaries](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/185.%09Department%20Top%20Three%20Salaries.md) |hard |Window Function
-196|[Delete Duplicate Emails]() |easy |SQL Command, Advanced Join, Simple Subquery
+196|[Delete Duplicate Emails](https://github.com/AlexaWu/SQL-Practice/blob/main/LeetCode/196.%09Delete%20Duplicate%20Emails.md) |easy |SQL Command, Advanced Join, Simple Subquery
 197|[Rising Temperature]() |easy |Simple Join, Simple Subquery, Window Function
-262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/SQL/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
-511|[Game Play Analysis I](https://github.com/AlexaWu/Leetcode/blob/main/SQL/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
-512|[Game Play Analysis II](https://github.com/AlexaWu/Leetcode/blob/main/SQL/512.%20Game%20Play%20Analysis%20II.md) |easy |Simple Join, Simple Subquery, Window Function
-534|[Game Play Analysis III](https://github.com/AlexaWu/Leetcode/blob/main/SQL/534.%20Game%20Play%20Analysis%20III.md) |medium |Advanced Join, Window Function
-550|[Game Play Analysis IV](https://github.com/AlexaWu/Leetcode/blob/main/SQL/550.%20Game%20Play%20Analysis%20IV.md) |medium |Simple Join, Advanced Subquery, Window Function
+262|[Trips and Users](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/262.%09Trips%20and%20Users.md)|hard |Simple Join, Advanced Subquery, CASE WHEN (or IIF)
+511|[Game Play Analysis I](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/511.%09Game%20Play%20Analysis%20I.md) |easy |Basics
+512|[Game Play Analysis II](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/512.%20Game%20Play%20Analysis%20II.md) |easy |Simple Join, Simple Subquery, Window Function
+534|[Game Play Analysis III](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/534.%20Game%20Play%20Analysis%20III.md) |medium |Advanced Join, Window Function
+550|[Game Play Analysis IV](https://github.com/AlexaWu/Leetcode/blob/main/LeetCode/550.%20Game%20Play%20Analysis%20IV.md) |medium |Simple Join, Advanced Subquery, Window Function
 569|[Median Employee Salary]() |hard |Advanced Join, Simple Subquery, Advanced Subquery, Window Function
 570|[Managers with at Least 5 Direct Reports]() |medium |Simple Join, Simple Subquery
 571|[Find Median Given Frequency of Numbers]() |hard|Simple Subquery, Window Function
