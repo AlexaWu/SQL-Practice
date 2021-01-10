@@ -73,5 +73,7 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet%203.png)
 
->Popular databases: MySQL, Access, Oracle, Microsoft SQL Server, Postgres\
+>Popular databases: MySQL(doesn’t have some of the functions for modifying dates as Postgres), Access, Oracle, Microsoft SQL Server, Postgres\
 You can also write SQL within other programming frameworks like Python, Scala, and HaDoop.
+
+[Types of SQL](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems): SQLite, PostgreSQL, and MySQL
