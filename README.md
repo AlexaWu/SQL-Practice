@@ -72,3 +72,6 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet%202.png)
 
 ![](https://github.com/AlexaWu/Leetcode/blob/main/SQL%20illustration/cheatsheet%203.png)
+
+>Popular databases: MySQL, Access, Oracle, Microsoft SQL Server, Postgres\
+You can also write SQL within other programming frameworks like Python, Scala, and HaDoop.
