@@ -77,3 +77,4 @@ Basics, SQL Command, Simple Join, Advanced Join, Simple Subquery, Advanced Subqu
 You can also write SQL within other programming frameworks like Python, Scala, and HaDoop.
 
 [Types of SQL](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems): SQLite, PostgreSQL, and MySQL
+Advanced Join: [UNION](https://www.w3schools.com/sql/sql_union.asp), [CROSS JOIN](https://www.w3resource.com/sql/joins/cross-join.php), and [SELF JOIN](https://www.w3schools.com/sql/sql_join_self.asp)
