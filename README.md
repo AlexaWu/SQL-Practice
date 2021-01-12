@@ -80,6 +80,6 @@ write SQL within other programming frameworks like Python, Scala, and HaDoop.
 
 >Advanced Join: [UNION](https://www.w3schools.com/sql/sql_union.asp), [CROSS JOIN](https://www.w3resource.com/sql/joins/cross-join.php), and [SELF JOIN](https://www.w3schools.com/sql/sql_join_self.asp)
 
->[Date/Time Functions and Operators](https://www.postgresql.org/docs/9.1/functions-datetime.html):
+>[Date/Time Functions and Operators](https://www.postgresql.org/docs/9.1/functions-datetime.html):\
 [DATE_TRUNC](https://mode.com/blog/date-trunc-sql-timestamp-function-count-on/): truncate date to a particular part of date-time column\
 DATE_PART: pulling a specific portion of a date
