@@ -1,4 +1,5 @@
-## What is the MEDIAN total_usd spent on all orders?
+### What is the MEDIAN **`total_usd`** spent on all **`orders`**?
+
 
 ![](https://video.udacity-data.com/topher/2017/October/59e946e7_erd/erd.png)
 
