@@ -1,7 +1,7 @@
 
 ![](https://video.udacity-data.com/topher/2017/October/59e946e7_erd/erd.png)
 
-#### What is the MEDIAN **`total_usd`** spent on all **`orders`**?
+### What is the MEDIAN **`total_usd`** spent on all **`orders`**?
 ```javascript
 SELECT *
 FROM (SELECT total_amt_usd
@@ -14,7 +14,7 @@ LIMIT 2;
 
 Since there are 6912 orders - we want the average of the 3457 and 3456 order amounts when ordered. This is the average of 2483.16 and 2482.55. This gives the median of **2482.855**. This obviously isn't an ideal way to compute. If we obtain new orders, we would have to change the limit. 
 
-#### Questions: CASE
+### Questions: CASE
 
 > Write a query to display for each order, the account ID, total amount of the order, and the level of the order - ‘Large’ or ’Small’ - depending on if the order is $3000 or more, or smaller than $3000.
 
