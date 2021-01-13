@@ -56,7 +56,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ```
 
-We would like to identify **top performing sales reps**, which are sales reps associated with more than 200 orders. Create a table with the **sales rep name**, the **total number of order**s, and **a column with `top` or `not`** depending on if they have more than 200 orders. Place the top sales people first in your final table.
+We would like to identify **top performing sales reps**, which are sales reps associated with `more than 200 orders`. Create a table with the **sales rep name**, the **total number of order**s, and **a column with `top` or `not`** depending on if they have more than 200 orders. Place the top sales people first in your final table.
 
 ```javascript
 SELECT s.name, COUNT(*) num_ords,
@@ -72,7 +72,7 @@ ORDER BY 2 DESC;
 ```
 > this assumes each name is unique - which has been done a few times. We otherwise would want to break by the name and the id of the table.
 
-We would like to identify **top performing sales reps**, which are sales reps associated with `more than 200 orders` or `more than 750000 in total sales`. The middle group has any rep with `more than 150 orders or 500000 in sales`. Create a table with the **sales rep name**, the **total number of orders**, **total sales across all orders**, and **a column with `top`, `middle`, or `low`** depending on this criteria. Place the top sales people based on dollar amount of sales first in your final table.
+We would like to identify **top performing sales reps**, which are sales reps associated with `more than 200 orders or more than 750000 in total sales`. The middle group has any rep with `more than 150 orders or 500000 in sales`. Create a table with the **sales rep name**, the **total number of orders**, **total sales across all orders**, and **a column with `top`, `middle`, or `low`** depending on this criteria. Place the top sales people based on dollar amount of sales first in your final table.
 
 ```javascript
 SELECT s.name, COUNT(*), SUM(o.total_amt_usd) total_spent, 
