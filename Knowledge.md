@@ -1,4 +1,5 @@
->Popular databases: MySQL, Access, Oracle, Microsoft SQL Server, Postgres\
+Popular databases: MySQL, Access, Oracle, Microsoft SQL Server, Postgres
+
 write SQL within other programming frameworks like Python, Scala, and HaDoop.
 
 [Types of SQL](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems): SQLite, PostgreSQL, and MySQL
@@ -41,7 +42,7 @@ REVOKE – withdraw user’s access privileges given by using the GRANT command
 
 #### Examples of TCL commands:
 
-COMMIT – commits a Transaction\
+COMMIT – [commits a Transaction](https://www.geeksforgeeks.org/sql-transactions/)\
 ROLLBACK – rollbacks a transaction in case of any error occurs\
 SAVEPOINT – sets a savepoint within a transaction\
 SET TRANSACTION – specify characteristics for the transaction
