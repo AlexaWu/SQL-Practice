@@ -36,7 +36,7 @@ REVOKE – withdraw user’s access privileges given by using the GRANT command
 
 #### Examples of TCL commands:
 
-COMMIT – [commits a Transaction](https://www.geeksforgeeks.org/sql-transactions/)\
+COMMIT – commits a [Transaction](https://www.geeksforgeeks.org/sql-transactions/)\
 ROLLBACK – rollbacks a transaction in case of any error occurs\
 SAVEPOINT – sets a savepoint within a transaction\
 SET TRANSACTION – specify characteristics for the transaction
