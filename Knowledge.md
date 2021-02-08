@@ -11,9 +11,6 @@ DATE_PART: pulling a specific portion of a date
 
 ## SQL commands
 
-DDL – Data Definition Language
-DQl – Data Query Language
-DML – Data Manipulation Language
-DCL – Data Control Language
+DDL(Data Definition Language), DQl(Data Query Language), DML(Data Manipulation Language), DCL(Data Control Language)
 
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190826175059/Types-of-SQL-Commands.jpg)
